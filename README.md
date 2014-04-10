@@ -11,3 +11,9 @@ Here are the [install instructions and more information](http://okaysass.com/pos
 
 gtop is developed by Jonathan Warner, aka [Jaxbot](http://jaxbot.me/), and is provided as free, open source software, under the MIT license.
 
+# More Howto:
+Install Apache or nginx. You will need to proxypass the https:// subscription URL to the port your gtop is running on
+
+ProxyPass /subscription http://example.com:8080/subscription
+
+Suggest running via nohup node index & You can then capture node output to nohup file for easier troubleshooting. 
