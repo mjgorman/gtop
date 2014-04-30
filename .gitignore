@@ -1,2 +1,4 @@
 config.json
+.clienttokens.json
 node_modules/
+nohup.out
